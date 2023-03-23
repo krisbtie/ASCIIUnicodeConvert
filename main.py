@@ -76,7 +76,7 @@ ascii_input = tk.Entry(root)
 ascii_input.grid(row=2, column=0)
 
 # Create label and entry for Unicode input
-unicode_label = tk.Label(root, text="\nUnicode input (e.g. 48656C6C6F for Hello):")
+unicode_label = tk.Label(root, text="\nUnicode input in hex (e.g. 48656C6C6F for Hello):")
 # unicode_label.grid(row=3, column=0)
 unicode_label.grid(row=3, column=0)
 unicode_input = tk.Entry(root)
